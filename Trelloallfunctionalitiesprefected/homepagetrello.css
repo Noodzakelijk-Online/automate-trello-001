@@ -1,0 +1,150 @@
+html body{
+    
+    display: block;
+    width: 420px;
+    height: 450px;
+    border: none;
+    margin: 0px;
+    padding: 0px
+}
+
+
+body{
+    text-align: center;
+}
+
+h2{
+    display: inline;
+}
+
+p {
+    display: inline-block;
+}
+
+
+input, label {
+    display:block;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #2D3748;
+    text-align: left;
+}
+
+
+
+#survey-form {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;
+    margin-left: 50px;
+    width: 100%;
+   }
+
+   #passwordform {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;  
+    margin-left: 50px;
+    width: 100%;
+   }
+
+
+   #password,#email {
+    height: 34px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0px 12px;
+    outline: none;
+    width: 290px
+    
+   }
+
+   #login-header{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A5568;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-family: 'Circular Std';
+   }
+
+   #createaccount {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #0021D1;
+    cursor: pointer;
+   }
+
+   a{
+       list-style: none;
+       text-decoration: none;
+   }
+
+   span{
+       width: 450px;
+ 
+       text-align: right;
+   }
+
+   #forgot-password{
+text-align: right;
+margin-left: 200px;
+margin-top: 4px;
+ 
+   }
+  
+#trellohead{
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: #0021D1;
+    /* border-bottom: 1px solid rgba( 0, 0, 0, 0.12 ); */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#signin{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+
+#signin-btn{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 24px;
+
+}
+
+#signin-btn:hover{
+    background-color: #00193D;
+}

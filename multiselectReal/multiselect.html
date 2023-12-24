@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en"  style="height: 450px; width: 420px;"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="multiselect.css">
+</head>
+<body  style="height: 450px; width: 420px;">
+
+
+<nav id="trellohead">
+    <button class="back-btn" >Menu</button> 
+        <h1 id="tme">TME</h1>
+
+        </nav>
+<main id="hidecontents">
+            <header id="headersHide" style="display: none">
+                <div id="member-name">
+                    <form id="survey-form">
+                        <label>Trello-name:
+                            <input type="text" id="resultoo" size="18px" placeholder="Trello-name of Member" style="    height: 20px;
+                            font-size: 17px;
+                            border: 1px solid #1c2061;
+                            border-radius: 6px;
+                            padding: 0px 12px;
+                            outline: none;" >
+                        </label>        
+                  
+                      </form>
+                </div>
+                <h1 id="signin"> Select Workspaces To Delete Member From</h1>
+             
+                
+        <nav style="position:relative ; margin-top:5px; margin-left: 23px;";>
+            
+            <input id="search" type="text" placeholder="Search Workspace..." style="  height: 20px;
+            font-size: 16px;
+            border: 1px solid #1c2061;
+            border-radius: 6px;
+            width: 320px;
+            padding: 0px 12px;
+            outline: none;" />
+          </nav>
+            </header>
+
+    <fieldset id="field-hide" >
+        <div id="selective-btn" style="display: none">   
+            <button id="select-all"> Select All </button>
+             <button id="clear-select" >Deselect All</button>
+             <div  style="margin-top: 8px; margin-bottom: 10px;">
+             <button id="deleting-btn">Delete Member</button>
+             <div id="para"></div>
+             <div id="email-error2" style="  display: none;
+             position: absolute; top: 65px;
+             width: 190px; height: 20px; margin-left: 200px;
+             color: rgb(255, 26, 26);
+                 font-size: 16px;
+                 font-weight: 700;"></div>
+            </div> 
+         </div>
+            
+            </div>
+
+        <form class="item" name="main" >
+            <input type="checkbox" name="fruit" class="inputs" id="check0" style="display: none;" >
+            <label for="a" id="labelcheck0"></label>
+        </form>
+        
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check1" style="display: none;" >
+    <label for="a" id="labelcheck1"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check2" style="display: none;" >
+    <label for="a" id="labelcheck2"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check3" style="display: none;" >
+    <label for="a" id="labelcheck3"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check4" style="display: none;" >
+    <label for="a" id="labelcheck4"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check5" style="display: none;" >
+    <label for="a" id="labelcheck5"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check6" style="display: none;" >
+    <label for="a" id="labelcheck6"></label>
+</form>
+      
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check7" style="display: none;" >
+    <label for="a" id="labelcheck7"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check8" style="display: none;" >
+    <label for="a" id="labelcheck8"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check9" style="display: none;" >
+    <label for="a" id="labelcheck9"></label>
+</form>
+
+<form class="item" name="main">
+    <input type="checkbox" name="fruit" class="inputs" id="check10" style="display: none;" >
+    <label for="a" id="labelcheck10"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check11" style="display: none;" >
+    <label for="a" id="labelcheck11"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check12" style="display: none;" >
+    <label for="a" id="labelcheck12"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check13" style="display: none;" >
+    <label for="a" id="labelcheck13"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check14" style="display: none;" >
+    <label for="a" id="labelcheck14"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check15" style="display: none;" >
+    <label for="a" id="labelcheck15"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check16" style="display: none;" >
+    <label for="a" id="labelcheck16"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check17" style="display: none;" >
+    <label for="a" id="labelcheck17"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check18" style="display: none;" >
+    <label for="a" id="labelcheck18"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check19" style="display: none;" >
+    <label for="a" id="labelcheck19"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check20" style="display: none;" >
+    <label for="a" id="labelcheck20"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check21" style="display: none;" >
+    <label for="a" id="labelcheck21"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check22" style="display: none;" >
+    <label for="a" id="labelcheck22"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check23" style="display: none;" >
+    <label for="a" id="labelcheck23"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check24" style="display: none;" >
+    <label for="a" id="labelcheck24"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check25" style="display: none;" >
+    <label for="a" id="labelcheck25"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check26" style="display: none;" >
+    <label for="a" id="labelcheck26"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check27" style="display: none;" >
+    <label for="a" id="labelcheck27"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check28" style="display: none;" >
+    <label for="a" id="labelcheck28"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check29" style="display: none;" >
+    <label for="a" id="labelcheck29"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check30" style="display: none;" >
+    <label for="a" id="labelcheck30"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check31" style="display: none;" >
+    <label for="a" id="labelcheck31"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check32" style="display: none;" >
+    <label for="a" id="labelcheck32"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check33" style="display: none;" >
+    <label for="a" id="labelcheck33"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check34" style="display: none;" >
+    <label for="a" id="labelcheck34"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check35" style="display: none;" >
+    <label for="a" id="labelcheck35"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check36" style="display: none;" >
+    <label for="a" id="labelcheck36"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check37" style="display: none;" >
+    <label for="a" id="labelcheck37"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check38" style="display: none;" >
+    <label for="a" id="labelcheck38"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check39" style="display: none;" >
+    <label for="a" id="labelcheck39"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check40" style="display: none;" >
+    <label for="a" id="labelcheck40"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check41" style="display: none;" >
+    <label for="a" id="labelcheck41"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check42" style="display: none;" >
+    <label for="a" id="labelcheck42"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check43" style="display: none;" >
+    <label for="a" id="labelcheck43"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check44" style="display: none;" >
+    <label for="a" id="labelcheck44"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check45" style="display: none;" >
+    <label for="a" id="labelcheck45"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check46" style="display: none;" >
+    <label for="a" id="labelcheck46"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check47" style="display: none;" >
+    <label for="a" id="labelcheck47"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check48" style="display: none;" >
+    <label for="a" id="labelcheck48"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check49" style="display: none;" >
+    <label for="a" id="labelcheck49"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check50" style="display: none;" >
+    <label for="a" id="labelcheck50"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check51" style="display: none;" >
+    <label for="a" id="labelcheck51"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check52" style="display: none;" >
+    <label for="a" id="labelcheck52"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check53" style="display: none;" >
+    <label for="a" id="labelcheck53"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check54" style="display: none;" >
+    <label for="a" id="labelcheck54"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check55" style="display: none;" >
+    <label for="a" id="labelcheck55"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check56" style="display: none;" >
+    <label for="a" id="labelcheck56"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check57" style="display: none;" >
+    <label for="a" id="labelcheck57"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check58" style="display: none;" >
+    <label for="a" id="labelcheck58"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check59" style="display: none;" >
+    <label for="a" id="labelcheck59"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check60" style="display: none;" >
+    <label for="a" id="labelcheck60"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check61" style="display: none;" >
+    <label for="a" id="labelcheck61"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check62" style="display: none;" >
+    <label for="a" id="labelcheck62"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check63" style="display: none;" >
+    <label for="a" id="labelcheck63"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check64" style="display: none;" >
+    <label for="a" id="labelcheck64"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check65" style="display: none;" >
+    <label for="a" id="labelcheck65"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check66" style="display: none;" >
+    <label for="a" id="labelcheck66"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check67" style="display: none;" >
+    <label for="a" id="labelcheck67"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check68" style="display: none;" >
+    <label for="a" id="labelcheck68"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check69" style="display: none;" >
+    <label for="a" id="labelcheck69"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check70" style="display: none;" >
+    <label for="a" id="labelcheck70"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check71" style="display: none;" >
+    <label for="a" id="labelcheck71"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check72" style="display: none;" >
+    <label for="a" id="labelcheck72"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check73" style="display: none;" >
+    <label for="a" id="labelcheck73"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check74" style="display: none;" >
+    <label for="a" id="labelcheck74"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check75" style="display: none;" >
+    <label for="a" id="labelcheck75"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check76" style="display: none;" >
+    <label for="a" id="labelcheck76"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check77" style="display: none;" >
+    <label for="a" id="labelcheck77"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check78" style="display: none;" >
+    <label for="a" id="labelcheck78"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check79" style="display: none;" >
+    <label for="a" id="labelcheck79"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check80" style="display: none;" >
+    <label for="a" id="labelcheck80"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check81" style="display: none;" >
+    <label for="a" id="labelcheck81"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check82" style="display: none;" >
+    <label for="a" id="labelcheck82"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check83" style="display: none;" >
+    <label for="a" id="labelcheck83"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check84" style="display: none;" >
+    <label for="a" id="labelcheck84"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check85" style="display: none;" >
+    <label for="a" id="labelcheck85"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check86" style="display: none;" >
+    <label for="a" id="labelcheck86"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check87" style="display: none;" >
+    <label for="a" id="labelcheck87"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check88" style="display: none;" >
+    <label for="a" id="labelcheck88"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check89" style="display: none;" >
+    <label for="a" id="labelcheck89"></label>
+</form>
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check90" style="display: none;" >
+    <label for="a" id="labelcheck90"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check91" style="display: none;" >
+    <label for="a" id="labelcheck91"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check92" style="display: none;" >
+    <label for="a" id="labelcheck92"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check93" style="display: none;" >
+    <label for="a" id="labelcheck93"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check94" style="display: none;" >
+    <label for="a" id="labelcheck94"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check95" style="display: none;" >
+    <label for="a" id="labelcheck95"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check96" style="display: none;" >
+    <label for="a" id="labelcheck96"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check97" style="display: none;" >
+    <label for="a" id="labelcheck97"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check98" style="display: none;" >
+    <label for="a" id="labelcheck98"></label>
+</form>
+
+<form class="item" name="main" >
+    <input type="checkbox" name="fruit" class="inputs" id="check99" style="display: none;" >
+    <label for="a" id="labelcheck99"></label>
+</form>
+
+<form class="item" name="main">
+    <input type="checkbox" name="fruit" class="inputs" id="check100" style="display: none;" >
+    <label for="a" id="labelcheck100"></label>
+</form>
+        </fieldset> 
+
+  
+        
+</main>
+
+        <div id="loading"> 
+            <div id="barHolder" style="background-color: black;
+            width: 300px; margin-left: 50px; margin-bottom: 10px;
+            height: 20px;
+            border-radius: 7px;">
+                <div id="bar"></div>
+            </div>
+            Loading Your Workspaces...</div>
+        <div id="success"> </div> 
+        <div id="sendin-progress2"></div>
+        <div id="fetch-progress2" style="font-size: 17px;"></div>
+        <div id="sendin-progress" style="font-size: 17px;"></div>
+ 
+        <div id="email-error"></div>
+   
+              <div id="addmail-error"></div>
+                <div id="addmail-error2"></div>
+              <div id="service-error"></div>
+              <div id="service-error2"></div>
+ 
+        <div id="container">
+        
+            <div class="container">
+          <div id="progressBar" value="0">
+            <div id="progress"></div>
+       
+        </div>
+        
+
+              <nav id="sameline">
+                <button id="okay">Okay</button> 
+                
+                <button id="cancel">Cancel</button>
+            </nav>
+      
+        <script src="variabledeclarations.js"></script>
+        <script src="workspacedelete.js"></script>
+        <script src="tifecheckbox.js"></script>
+       <script src="workspacedeleteinnng.js"></script>
+        <script src="multiselectadds.js"></script>
+        <script src="workpacedelete1to5.js"></script>
+        <script src="multiselect.js"></script>
+        <script src="searchbartesting.js"></script>
+</body>
+</html> 

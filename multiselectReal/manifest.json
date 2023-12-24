@@ -1,0 +1,24 @@
+{
+  "name": "Trello MultiSelectWorkspace Delete",
+  "description": "Multiselecting of Workspaces to delete Trello members",
+  "version": "1.0",
+  "manifest_version": 3,
+
+"icons": {
+  "16": "/image/Trello-Emblem_16x16.png",
+  "32": "/image/Trello-Emblem_2_32x32.png",
+  "48": "/image/Trello-Emblem_4_48x48.png",
+  "128": "/image/Trello-Emblem_5_128x128.png"
+},
+"background": {
+  "service_worker": "background.js"
+},
+"permissions": ["activeTab"],
+"host_permissions": ["*://*.example.com/*"],
+"action": {
+  "default_icon": "/image/Trello-Emblem_16x16.png",
+  "default_popup": "multiselect.html"
+}
+}
+
+

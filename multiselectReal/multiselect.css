@@ -1,0 +1,496 @@
+
+
+html,body{overflow-y: scroll; 
+    overflow-x: hidden;
+text-align: justify;}
+
+
+fieldset {
+    width: 100%;
+    border-style: none;
+    position: relative;
+
+}
+
+#field-hide{
+    margin-bottom: 5px;
+}
+
+.item {
+    display: block;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+label {
+    display: inline;
+    width: 700px;
+}
+input[type=checkbox] {
+    display: inline;
+}
+
+#signin{ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3e1fde;
+    margin-bottom: 5px;
+    margin-left: 25px;
+};
+
+#resultoo{
+    height: 20px;
+    font-size: 17px;
+    border: 1px solid #1c2061;
+    border-radius: 6px;
+    padding: 0px 12px;
+    outline: none;
+}
+
+#trellohead{
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: #0021D1;
+    /* border-bottom: 1px solid rgba( 0, 0, 0, 0.12 ); */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#para{
+    user-select: none;
+    position: absolute;
+    top: 35px;
+    margin-bottom: 300px;
+    margin-left: 11px;
+    font-size: 18px;
+    visibility: visible;
+    background-color: white;
+    height: 30px;
+    padding-right: 1px;
+}
+
+
+#counter{
+    position: fixed;
+    background-color: white;
+  width: 100%;
+}
+
+#deleting-btn:hover{
+    color: #FFFFFF;
+    background: #001B40;
+}
+
+#deleting-btn{
+    
+    margin-left:258px;
+            font-size: 15px;
+    font-weight: 400;
+            border-radius: 4px; cursor: pointer;
+            border: none;
+            height: 30px; 
+        display: inline;
+        background-color: #3e1fde; color: white;
+}
+
+
+
+#check0 , #check1 , #check2 , #check3 , #check4 , #check5 , #check6, #check7 , #check8 , #check9 ,  #check10 ,  #check11 , #check12
+,#check13, #check14, #check15 , #check16, #check17, #check18 , #check19, #check20, #check21, #check22, #check23, #check24 , #check25 , #check26, #check27, #check28 
+, #check29 , #check30 , #check31, #check32, #check33 , #check34, #check35, #check36, #check37  , #check38 , #check39, #check40 , #check41 , #check42, #check43, #check44
+, #check45, #check46, #check47, #check48, #check49 , #check50, #check51 , #check52, #check53, #check54, #check55, #check56 , #check57, #check58, #check59, #check60
+ , #check61 , #check62, #check63, #check64, #check65, #check66, #check67, #check68, #check69, #check70, #check71, #check72, #check73 , #check74, #check75, #check76
+, #check77, #check78, #check79, #check80, #check81, #check82, #check83, #check84, #check85 , #check86, #check87, #check88, #check89 , #check90, #check91, #check92
+, #check93, #check94, #check95, #check96 , #check97, #check98, #check99, #check100 {
+
+    position: absolute;
+    margin-left: -20px;
+    display: none;
+}
+
+#form0 , #form1 , #form2 , #form3 , #form4 , #form5 , #form6, #form7 , #form8 , #form9 ,  #form10 ,  #form11 , #form12
+,#form13, #form14, #form15 , #form16, #form17, #form18 , #form19, #form20, #form21, #form22, #form23, #form24 , #form25 , #form26, #form27, #form28 
+, #form29 , #form30 , #form31, #form32, #form33 , #form34, #form35, #form36, #form37  , #form38 , #form39, #form40 , #form41 , #form42, #form43, #form44
+, #form45, #form46, #form47, #form48, #form49 , #form50, #form51 , #form52, #form53, #form54, #form55, #form56 , #form57, #form58, #form59, #form60
+ , #form61 , #form62, #form63, #form64, #form65, #form66, #form67, #form68, #form69, #form70, #form71, #form72, #form73 , #form74, #form75, #form76
+, #form77, #form78, #form79, #form80, #form81, #form82, #form83, #form84, #form85 , #form86, #form87, #form88, #form89 , #form90, #form91, #form92
+, #form93, #form94, #form95, #form96 , #form97, #form98, #form99, #form100 {
+    display: none;
+}
+
+#survey-form {
+    margin-left: 50px;
+}
+
+
+#sendin-progress{
+    width: 230px;
+    background-color: white;
+    color: blue;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+ 
+    text-align: center;
+    
+   position: fixed;
+   top: 245px;
+   left: 80px;
+ 
+  
+    
+   }
+   
+   #fetch-progress2{
+    width: 315px;
+    background-color: white;
+    color: blue;
+    font-weight: 500;
+    font-size: 16px;
+    
+ margin-left: 10px;
+   text-align: center;
+ 
+   position: fixed;
+   top: 245px;
+   left: 35px; 
+   }
+   
+   #success{
+     width: 205px;
+    background-color: white;
+    color: blue;
+    font-weight: 500;
+    font-size: 16px;
+ 
+    position: fixed;
+    top: 275px;
+    left: 30px;
+    margin-top: 10px;
+    
+   
+   }
+ 
+ 
+   #paremeters{
+     position: fixed;
+     top: 230px;
+  
+     left: 40px;
+   }
+   
+   #container {
+ 
+   display: none;
+   position: fixed;
+   top: 180px; 
+   left: 45px;
+ 
+   } 
+  
+   .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ 
+   
+   }
+   #progressBar {
+     height: 20px;
+     width: 300px;
+     background: rgb(39, 39, 39);;
+     border: 2px solid white;
+     border-radius: 10px;
+     display: flex;
+     justify-content: flex-start;
+     color: rgb(39, 39, 39);
+     font-size: 18px;
+     font-weight: 900;
+     margin-top: 20px;
+     
+     }
+     
+     #progress {
+     background-color: rgb(55, 20, 255);
+     width: 0%;
+     border-radius: 4px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+    
+     }
+
+
+     #hidecontents{
+  
+        visibility: visible;}
+
+
+
+        
+  #cancel{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 280px;
+  left:35px;
+  margin-left: 3px
+  ;
+  }
+
+  #cancel:hover{
+   color: white;
+   background-color:red;
+  }
+  
+  #okay{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 280px;
+  left:35px;
+  margin-left: 3px;
+  }
+  
+  #okay:hover{
+    color: #FFFFFF;
+    background: #001B40;
+  }
+  
+  #sameline{
+    margin-top: 0%;
+    margin-bottom: 10px;
+   width: 100%;
+   text-align: center;
+   padding: 0;
+
+
+   position: fixed;
+   top: 260px;
+ 
+   right: 25px;
+   
+  }
+
+
+#member-name{
+    margin-left: 50px;
+    user-select: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.back-btn{
+
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: black;
+    height: 25px;
+    margin-right: 400px;
+ 
+}
+.back-btn:hover{
+    color: #3e1fde;
+}
+
+#tme {
+    margin-left: -300px;
+    padding-right: 180px;
+}
+
+#submit-eloo{
+    display: none;
+}
+
+#survey-form {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;
+    margin-left: -26px;
+    width: 100%;
+    font-size: 18px;
+   }
+
+   #email-error{
+
+    color: rgb(255, 26, 26);
+    font-size: 0.75rem;
+    font-weight: 700;
+    width: 185px;
+    position: absolute;
+    top: 370px;
+    left: 190px;
+    margin-left: 40px;
+     margin-top: 10px;
+     background-color: white;
+   }
+   
+   #addmail-error{
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    width: 135px;
+    font-weight: 500;
+    position: fixed;
+    top: 275px;
+    left: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+   
+   #addmail-error2{
+   
+   background-color: white;
+   color: red;
+   font-size: 16px;
+   width: 120px;
+   font-weight: 500;
+   position: fixed;
+   top: 275px;
+   left: 150px;
+   margin-left: 30px;
+    margin-top: 10px;
+    
+   }
+   
+   #service-error{
+     background-color: white;
+    color: red;
+    font-size: 16px;
+    width: 170px;
+    font-weight:400;
+    display: inline;
+    font-weight: 500;
+    font-size: 14px;
+    position: fixed;
+    top: 275px;
+    left: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+   }
+   
+   #service-error2{
+  
+    margin-top: 10px;
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    width: 120px;
+    font-weight: 500;
+    font-size: 14px;
+    visibility: visible;
+    position: fixed;
+    top: 275px;
+    left: 180px;
+    margin-left: 20px;
+   }
+ 
+   
+
+   #loading{
+    visibility: visible;
+    text-align: center;
+    color: #0021D1;
+    font-size: 17px;
+    margin-top: 90px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: none;
+   }
+
+
+   button:hover{
+color: #4D7EC4;
+   };
+    
+   #barHolder {
+    display: block;
+    background-color: black;
+    width: 250px;
+    height: 20px;
+    border-radius: 7px;
+    color: black;
+  }
+  #bar {
+    background-color: blue;
+    width:0%;
+    height: 20px;
+    transition: width 2s; /* Add this */
+    border-radius: 7px;
+  }
+
+
+  #clear-select {
+    margin-left:170px;
+            position:relative;
+            outline: none;
+            height: 20px; 
+            padding: 0;
+border: none;
+background: none;
+            border: none;
+            font-size: 17px;
+            font-weight: 600;
+        display: inline;
+        color: blue;
+        cursor: pointer;
+  }
+
+
+  #select-all {
+    
+    margin-left:10px;
+    position:relative;
+    outline: none;
+    height: 20px; 
+    padding: 0;
+border: none;
+background: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+display: inline;
+color: blue;
+cursor: pointer;
+  }
+      
+  #select-all:hover,   #clear-select:hover{
+    text-decoration: underline
+
+   };
+
+

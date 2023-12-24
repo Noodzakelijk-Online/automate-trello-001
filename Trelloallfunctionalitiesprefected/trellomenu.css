@@ -1,0 +1,279 @@
+
+html body{
+    
+    display: block;
+    width: 420px;
+    height: 450px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+body{
+    text-align: center;
+    width: 420px;
+    height: 450px;
+}
+
+p {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#addwork-space{
+    width: 315px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #48B0F7;
+    height: 50px;
+    padding: 0 60px;
+    box-shadow: 0px 11px 31px rgb(63 63 63 / 15%);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#addwork-space{
+    text-decoration: none;
+    color: #7c889d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #1d222c;
+margin-left: 35px;
+
+}
+
+#addwork-space:hover{
+    background-color: #48B0F7;
+    color: #fff;
+}
+
+
+#functionalities{
+   margin-left: 20px;
+}
+
+
+
+
+html body{
+    
+    display: block;
+    width: 420px;
+    height: 600px;
+    border: none;
+    margin: 0px;
+    padding: 0px
+}
+
+
+body{
+    text-align: center;
+}
+
+h2{
+    display: inline;
+}
+
+p {
+    display: inline-block;
+}
+
+
+input, label {
+    display:block;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #2D3748;
+    text-align: left;
+}
+
+
+
+#survey-form {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;
+    margin-left: 50px;
+    width: 100%;
+   }
+
+   #passwordform {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;  
+    margin-left: 50px;
+    width: 100%;
+   }
+
+
+   #password,#email {
+    height: 34px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0px 12px;
+    outline: none;
+    width: 290px
+    
+   }
+
+   #login-header{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A5568;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-family: 'Circular Std';
+   }
+
+   #createaccount {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #0021D1;
+    cursor: pointer;
+   }
+
+   a{
+       list-style: none;
+       text-decoration: none;
+   }
+
+   span{
+       width: 450px;
+ 
+       text-align: right;
+   }
+
+   #forgot-password{
+text-align: right;
+margin-left: 200px;
+margin-top: 4px;
+ 
+   }
+  
+#trellohead{
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: #0021D1;
+    /* border-bottom: 1px solid rgba( 0, 0, 0, 0.12 ); */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#signin{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+
+#signin-btn{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 24px;
+
+}
+
+#signin-btn:hover{
+    background-color: #00193D;
+}
+
+
+#home-btn{
+    position: absolute;
+    margin-right: 350px;
+    height: 25px;
+    width: 65px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 7px;
+    border-color: #0021D1;
+    cursor: pointer;
+    visibility: visible;
+     background-color: white;
+    
+    }
+    
+    a#home-btn2 {
+      background-color: white;
+      color: blue;
+    position: absolute;
+    margin-top: -39px;
+  margin-left: -200px;
+    text-decoration: none;
+    font-style: Times New Roman (serif);
+    cursor: pointer;
+  
+    };
+    
+    a#home-btn2:hover {
+      background-color: #80A3D5;
+      color: black;
+    }
+    
+    #home-btn:hover{
+      
+      background-color: #80A3D5;
+      color: black;
+      
+    }
+  
+
+
+
+
+
+
+
+
+
+
+

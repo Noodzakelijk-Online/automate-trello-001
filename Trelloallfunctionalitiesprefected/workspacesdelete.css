@@ -1,0 +1,501 @@
+
+
+  html body{
+    
+    display: block;
+    width: 420px;
+    height: 600px;
+    border: none;
+    margin: 0px;
+    padding: 0px
+}
+
+h1{
+    font-size: 30px;
+}
+
+body{
+    text-align: center;
+}
+
+h2{
+    display: inline;
+}
+
+p {
+    display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  background-color: #FFFFFF;
+}
+
+
+input, label {
+    display:block;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2D3748;
+    text-align: left;
+}
+
+
+
+#survey-form {
+    display: flex;
+    margin: 0 auto;     
+    justify-content: left;
+    margin-left: 0px;
+    width: 100%;
+   }
+
+
+#result {
+    height: 34px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0px 12px;
+    outline: none;
+    width: 290px
+    
+   }
+
+   #login-header{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4A5568;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-family: 'Circular Std';
+   }
+
+   #createaccount {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0021D1;
+    cursor: pointer;
+   }
+
+   a{
+       list-style: none;
+       text-decoration: none;
+   }
+
+   span{
+       width: 450px;
+ 
+       text-align: right;
+   }
+
+  
+#trellohead{
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: #0021D1;
+    /* border-bottom: 1px solid rgba( 0, 0, 0, 0.12 ); */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#signin{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3e1fde;
+    margin-bottom: 16px;
+}
+
+
+#submit-el{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 315px;
+  left:35px;
+  margin-left: 3px;
+
+}
+
+#submit-el:hover{
+  color: #FFFFFF;
+  background: #001B40;
+  
+}
+
+#okay:hover{
+  color: #FFFFFF;
+  background: #001B40;
+}
+
+  #email-error{
+   background-color: white;
+   color: red;
+   font-size: 16px;
+   width: 155px;
+   font-weight: 500;
+   position: fixed;
+   top: 275px;
+   left: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+
+  }
+  
+  #email-error2{
+   background-color: white;
+   color: red;
+   font-size: 16px;
+   font-weight: 500;
+   width: 185px;
+   position: fixed;
+   top: 275px;
+   left: 150px;
+   margin-left: 40px;
+    margin-top: 10px;
+   
+  }
+  
+  #addmail-error{
+   background-color: white;
+   color: red;
+   font-size: 16px;
+   width: 135px;
+   font-weight: 500;
+   position: fixed;
+   top: 275px;
+   left: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+  }
+  
+  #addmail-error2{
+  
+  background-color: white;
+  color: red;
+  font-size: 16px;
+  width: 120px;
+  font-weight: 500;
+  position: fixed;
+  top: 275px;
+  left: 150px;
+  margin-left: 30px;
+   margin-top: 10px;
+   
+  }
+  
+  #service-error{
+    background-color: white;
+   color: red;
+   font-size: 16px;
+   width: 170px;
+   font-weight:400;
+   display: inline;
+   font-weight: 500;
+   font-size: 14px;
+   position: fixed;
+   top: 275px;
+   left: 30px;
+   margin-top: 10px;
+   margin-left: 5px;
+  }
+  
+  #service-error2{
+ 
+   margin-top: 10px;
+   background-color: white;
+   color: red;
+   font-size: 16px;
+   width: 120px;
+   font-weight: 500;
+   font-size: 14px;
+   visibility: visible;
+   position: fixed;
+   top: 275px;
+   left: 180px;
+   margin-left: 20px;
+  }
+
+  
+  #sendin-progress2{
+   width: 330px;
+   background-color: white;
+   color: blue;
+   font-weight: 500;
+   font-size: 14px;
+   margin-top: 10px;
+text-align: center;
+   
+}
+  
+  #sendin-progress{
+    width: 305px;
+    background-color: white;
+    color: blue;
+    font-weight: 500;
+    font-size: 16px;
+
+   text-align: center;
+ 
+   position: fixed;
+   top: 245px;
+   
+  };
+  
+  #fetch-progress2{
+   width: 305px;
+   background-color: white;
+   color: blue;
+   font-weight: 500;
+   font-size: 20px;
+   
+margin-left: 10px;
+  text-align: center;
+
+  position: fixed;
+  top: 245px;
+  }
+  
+  #success{
+    width: 100%;
+   background-color: white;
+   color: blue;
+   font-weight: 500;
+   font-size: 16px;
+
+   position: fixed;
+   top: 275px;
+   left: 30px;
+
+   
+  
+  }
+
+
+  #paremeters{
+    position: fixed;
+    top: 230px;
+ 
+    left: 40px;
+  }
+  
+  #container {
+
+  visibility: hidden;
+  position: fixed;
+  top: 180px;
+ 
+  left: 45px;
+
+  } 
+  
+  
+  
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  
+  }
+  
+  #progressBar {
+  height: 20px;
+  width: 300px;
+  background: rgb(39, 39, 39);;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(39, 39, 39);
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 20px;
+  
+  }
+  
+  #progress {
+  background-color: rgb(55, 20, 255);
+  width: 0%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  
+  
+  }
+  
+  #hidecontents{
+  
+   visibility: visible;
+   position: fixed;
+   top: 150px;
+ 
+left: 45px;
+  
+  }
+  
+  #cancel{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 280px;
+  left:35px;
+  margin-left: 3px
+  ;
+  }
+
+
+    
+  #cancel:hover{
+   color: white;
+   background-color:red;
+  }
+  
+  #okay{
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 280px;
+  left:35px;
+  margin-left: 3px;
+  }
+  
+  
+  #sameline{
+    margin-top: 0%;
+    margin-bottom: 10px;
+   width: 100%;
+   text-align: center;
+   padding: 0;
+
+   position: fixed;
+   top: 260px;
+ 
+   right: 25px;
+   
+  }
+
+
+  #btn-reload {
+    visibility: hidden;
+    width: 320px;
+    height: 48px;
+    background: #0021D1;
+    border: none;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    position: fixed;
+    top: 315px;
+  left:35px;
+  margin-left: 3px;
+  }
+
+  
+#home-btn{
+  position: absolute;
+  margin-right: 350px;
+  height: 25px;
+  width: 65px;
+  font-size: 20px;
+  background-color: black;
+  border-radius: 7px;
+  border-color: #0021D1;
+  cursor: pointer;
+  visibility: visible;
+   background-color: white;
+  
+  }
+  
+  a#home-btn2 {
+    background-color: white;
+    color: blue;
+  position: absolute;
+  margin-top: -143px;
+margin-left: -200px;
+  text-decoration: none;
+  font-style: Times New Roman (serif);
+  cursor: pointer;
+  }
+  
+  
+  a#home-btn2:hover {
+    background-color: #80A3D5;
+    color: black;
+  }
+  
+  #home-btn:hover{
+    
+    background-color: #80A3D5;
+    color: black;
+    
+  }
+  
+      
+  #btn-reload:hover{
+    color: white;
+    background-color:red;
+   }
+  
+
+ 
